@@ -18,8 +18,8 @@ main {
   width: 327px;
   height: 360px;
   border-radius: 15px;
-  padding: 24px 24px 32px;
   background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  padding: 24px 24px 32px;
 }
 
 .star.circle {
@@ -94,6 +94,41 @@ p {
   background-color: #fc7614;
 }
 
+.modal.center {
+  padding: 34px 24px 27px;
+  text-align: center;
+}
+
+.modal.center img {
+  width: 144px;
+  margin-bottom: 24px;
+}
+
+.rating {
+  width: 168px;
+  height: 32px;
+  background-color: #262e38;
+  border-radius: 23px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fc7614;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  margin: 24px 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (min-width: 412px) {
   .modal {
     width: 412px;
@@ -163,5 +198,25 @@ p {
     cursor: pointer;
     color: #fc7614;
     background-color: #fff;
+  }
+
+  .modal.center {
+    padding: 45px 36px 44px;
+    text-align: center;
+  }
+
+  .modal.center img {
+    width: 162px;
+    margin-bottom: 32px;
+  }
+
+  .rating {
+    width: 193px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 35px;
+    margin: 32px 0 8px;
   }
 }
