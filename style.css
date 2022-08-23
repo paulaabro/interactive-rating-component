@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131518;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+}
+
+.star.circle {
+  width: 40px;
+  height: 40px;
+}
+
+.circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #262e38;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 16px 0 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #969fad;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+.btns button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #7c8798;
+}
+
+.btns button.select {
+  color: #fff;
+  background: #7c8798;
+}
+
+.submit-btn {
+  width: 279px;
+  height: 45px;
+  border-radius: 23px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #fc7614;
+}
