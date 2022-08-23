@@ -27,6 +27,10 @@ main {
   height: 40px;
 }
 
+.star img {
+  width: 14px;
+}
+
 .circle {
   width: 42px;
   height: 42px;
@@ -88,4 +92,76 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: #fc7614;
+}
+
+@media (min-width: 412px) {
+  .modal {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding: 32px;
+  }
+
+  .star.circle {
+    width: 48px;
+    height: 48px;
+  }
+
+  .star img {
+    width: 16px;
+  }
+
+  .circle {
+    width: 51px;
+    height: 51px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin: 30px 0 7px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .btns {
+    margin-bottom: 32px;
+  }
+
+  .btns button {
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 500ms;
+  }
+
+  .btns button.select {
+    color: #fff;
+    background-color: #7c8798;
+  }
+
+  .btns button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #fc7614;
+  }
+
+  .submit-btn {
+    width: 341px;
+    font-size: 15px;
+    line-height: 19px;
+    transition: all 500ms;
+  }
+
+  .submit-btn:disabled {
+    cursor: not-allowed;
+  }
+
+  .submit-btn:not(:disabled):hover {
+    cursor: pointer;
+    color: #fc7614;
+    background-color: #fff;
+  }
 }
